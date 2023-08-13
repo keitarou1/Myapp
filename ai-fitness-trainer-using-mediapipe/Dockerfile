@@ -20,3 +20,4 @@ RUN /bin/sh setup.sh
 
 ENTRYPOINT ["streamlit", "run", "_.py"]
 RUN apt-get update && apt-get install ffmpeg libsm6 libxext6  -y
+apt-get update && apt-get install libgl1
